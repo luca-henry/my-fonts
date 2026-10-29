@@ -1,0 +1,54 @@
+# =====================================================
+#  PROJECT SETTINGS  (settings.txt)
+#
+#  Put this file inside ONE project's folder. Everything here is optional:
+#  delete a line, or leave the value empty, and the default is used.
+#  Lines that start with # are notes and are ignored.
+#  Write each setting as   name: value   (one per line, nothing after the value)
+#
+#  Anything you put in projects/settings.txt (outside the folders) applies to
+#  ALL projects. A setting in a project's own file wins over that one.
+# =====================================================
+
+
+# ---------- FONTS ----------
+# Use the file name of a font that is in your fonts repo (no .ttf / .otf needed),
+# e.g.  MainTitle   or   Syne-Bold
+# or the name of a font installed on the visitor's computer, e.g.  Georgia
+# Empty = your main font.
+
+# the big project title
+title font: MainTitle
+# the smaller line under it (brand identity, packaging...)
+subheading font: MainTitle
+# the paragraphs of information
+info font:
+# the project's name on the floating card (shows on hover)
+name font:
+
+
+# ---------- TEXT SIZES ----------
+# 1 = normal, 1.2 = 20% bigger, 0.8 = 20% smaller
+title size: 1
+subheading size: 1
+info size: 1
+
+
+# ---------- THE FLOATING CARD ----------
+# width in px (for a 900px wide box) and height divided by width
+card width: 190
+card ratio: 1.25
+
+
+# ---------- COLOURS OF THE OPENED PROJECT ----------
+# hex colours. Empty = your site colours.
+text colour:
+background colour:
+
+
+# ---------- LINK BUTTON (optional) ----------
+# adds a button at the bottom of the project that opens a website in a new tab
+# link: https://www.behance.net/yourproject
+# link text: view on behance ↗
+link:
+link text:
